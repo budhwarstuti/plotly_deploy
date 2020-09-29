@@ -33,3 +33,6 @@ function buildMetadata(sample) {
     });
   }
 
+function buildCharts(sample){
+  d3.json("samples.json").then((data) => {})
+}
